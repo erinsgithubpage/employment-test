@@ -1,0 +1,932 @@
+@font-face {
+    font-family: mitsubishiReg;
+    src: url(fonts/MitsubishiFont-Regular.ttf);
+    }
+
+    @font-face {
+    font-family: mitsubishiBold;
+    src: url(fonts/MitsubishiFont-Bold.ttf);
+}
+
+    body {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container#one {
+        position: relative;
+        max-width: 100%;
+        background-image: url('images/ralliart2.png'); 
+        background-size: cover; 
+        color: white;  
+        text-align: left;
+        font-family: mitsubishiReg;
+}
+
+.two-column-container  {
+    display: flex; 
+    background-image: url('images/blackBackground.png'); 
+    max-height: 100%;
+    color: white;
+    height: 400px;
+    font-family: mitsubishiReg;
+    margin-left: 65px;
+    margin-right: 65px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 82%; 
+}
+
+/* Style for the left column */
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style for the right column */
+.right-column {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+div.background-image#one {
+    background-image: url('images/ralliart2.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 550px; 
+    position: relative;
+}
+
+div.background-image#two {
+    background-image: url('images/blackBackground.png');
+    background-size: cover;
+    background-position: center; 
+    height: 500px; 
+    position: relative;
+}
+
+div.background-image#three {
+    background-image: url('images/ralliart-groupshot-videobg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 500px; 
+    position: relative;
+}
+
+div.background-image#four {
+    background-image: url('images/blackBackground2.png');
+    background-size: cover; 
+    background-position: center;
+    height: 250px;
+    position: relative;
+}
+
+div.background-image#five {
+    background-image: url('images/whiteBackground.png');
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    background-color: white;
+    min-height: 600px;
+    margin-left: 70px;
+    margin-right: 70px;
+    left: 100px;
+} 
+
+div.background-image#six {
+    background-image: url('images/whiteBackground.png');
+    background-size: cover; /
+    background-position: center;
+    position: relative;
+    background-color: white;
+    min-height: 75px;
+ } 
+
+img#logo {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    width: fit-content;
+    padding: 20px;
+    font-family: mitsubishiBold;
+}
+
+img#cars {
+    max-width: 100%
+}
+
+h1.returns {
+    color: white;
+    text-align: center;
+    font-family: mitsubishiBold;
+}
+
+h2.para1 {
+    color: white;
+    text-align: center;
+    font-family: mitsubishiBold;
+    
+}
+
+h1.ralliart {
+    font-family: mitsubishiBold;
+    color: black;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+h6.ralliart2 {
+    text-align: left; 
+    font-family: mitsubishiReg;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h6.ralliart {
+    text-align: left;
+    font-family: mitsubishiReg;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h6.ralliart3 {
+    text-align: left; 
+    font-family: mitsubishiReg;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+h6.ralliart5 {
+    text-align: left; 
+    font-family: mitsubishiReg;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 10px;
+    
+}
+
+h1.ralliart5 {
+    font-family: mitsubishiBold;
+    color: black;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/*Four column styling*/
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    left: 250px;
+    right: 250px;
+    margin: 255px 0;
+    padding: 3px;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    left: 250px;
+    right: 250px;
+    /*margin: 255px 0;*/
+    padding: 3px;
+ }
+
+/* Style for each column */
+.column {
+    flex: 1;
+    padding: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    margin: 5px 0;
+ }
+
+.column-one {
+    flex: 1;
+    padding: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+div.column h5 {
+    color: white;
+    text-align: center;
+    padding-right: 1px;
+    padding-left: 1px;
+    font-family: mitsubishiBold;
+    /*margin-right: 1px; 
+    margin-left: 1px;*/ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+}
+
+h6.para2 {
+    color: white;
+    margin-left: 40px;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    font-family: mitsubishiReg;
+}
+
+h6.para2 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: 5px; 
+    font-family: mitsubishiReg;
+ }
+
+h6.para3 {
+    font-family: mitsubishiReg; 
+} 
+
+h1.para3 {
+    font-family: mitsubishiBold;
+    
+}
+
+h6.para4 {
+    font-family: mitsubishiBold;
+    line-height: 2;
+}
+
+div.background-image#four h1.from  {
+    color: white;
+    text-align: center;
+    font-family: mitsubishiReg;
+    line-height: 2;
+    /*margin-left: 160px !important;
+    margin-right: 0 !important;*/
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+div.background-image#four h6.limited {
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-family: mitsubishiReg;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+ }
+
+div.fourth {
+    position: relative;
+    align-items: center !important;;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.left-column#five-top,
+.right-column#five-top {
+    margin-top: 10px;
+    width: 48%; 
+    position: relative; 
+    transform: translateY(-50%);
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: mitsubishiReg;
+ }
+
+.left-column#five-top {
+    left: 5%;
+    color: gray;
+    top: 0;
+    height: auto;
+    font-family: mitsubishiReg;
+ }
+
+img#outlander {
+    width: 50%;
+    height: auto;
+    margin-top: 0;
+}
+
+img#cross {
+    width: 50%;
+    height: auto;
+}
+
+img#phev {
+    width: 50%;
+    height: auto;
+}
+
+img#sport {
+    width: 50%;
+    height: auto;
+}
+
+img#mirage {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0; 
+    z-index: 999;
+    position: relative;
+    clear: both;
+    margin: auto;
+}
+
+.horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+.disclaimer-text {
+    text-align: justify;
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px; 
+    font-family: mitsubishiReg;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h2.footer {
+    text-align: left;
+    line-height: 2;
+    font-family: mitsubishiBold;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/*Container styling*/
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 90%;
+    padding: 0 20px; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/*Grid container styling*/
+.grid-container#one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 90%;
+    margin-left: 225px;
+}
+
+
+.grid-container#two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; 
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+  
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px; 
+    text-align: left;
+    width: 400px;
+}
+   
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+/*background-image#one styling*/
+.background-image#one {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h5 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px !important;
+}
+
+h2.para2 {
+    max-width: 100%;
+}
+
+.column {
+    max-width: 90%;
+  }
+
+.row {
+    max-width: 90%;
+}
+
+h6.para2 {
+    max-width: 90%;
+}
+
+/*background-image#two styling*/
+.background-image#two {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 100%;
+}
+
+h6.para3 {
+    max-width: 100%;
+}
+
+h1.para3 {
+    max-width: 90%;
+}
+
+h6.para4 {
+    max-width: 90%;
+}
+
+.background-image#four {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.fourth {
+    position: relative;
+    align-items: center !important;;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-left: 5% !important;
+    margin-right: 0 !important;
+}
+
+/*background-image#five styling*/
+.background-image#five {
+        height: auto;
+    }
+
+.button {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ /*Container styling*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+.grid-container#one {
+    max-width: 100%; 
+    /*margin: 0 auto;*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px !important;
+}
+
+.grid-container#two {
+    margin-left: 50px !important;
+}
+
+.grid-container#one,
+.grid-container#two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px;
+    text-align: left;
+}
+
+footer {
+    max-width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h2.footer {
+    text-align: left;
+    margin-left: 60px;
+
+}
+
+.disclaimer-text,
+.horizontal-line {
+    position: relative;
+    align-items: center !important;;
+    justify-content: center !important;
+    text-align: justify !important;
+    /*margin-left: 10% !important;*/
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+ /*background-image#one styling*/
+body {
+    margin-left: 420px;
+    margin-right: auto;
+}
+
+.background-image#one {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2.para2 {
+    max-width: 100%;
+}
+
+h5 {
+    max-width: 90%;
+    left: 10% !important;
+}
+
+.row {
+    max-width: 90%;
+}
+
+h6.para2 {
+    max-width: 90%;
+    margin-left: 15px !important;
+}
+
+/*background-image#two styling*/
+.background-image#two {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 100%;
+}
+
+h6.para3 {
+    max-width: 100%;
+}
+
+h1.para3 {
+    max-width: 90%;
+}
+
+h6.para4 {
+    max-width: 90%;
+}
+
+.background-image#four {
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    
+}
+
+.background-image#five {
+    height: auto;
+}
+
+   
+.grid-container#one,
+.grid-container#two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+}
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px;
+    text-align: left;
+}
+
+.left-column5#five,
+.right-column#five {
+    width: 50%;
+   }
+
+.background-image#five {
+    max-width: 100%;
+    height: 3000px;
+    justify-content: center;
+}
+
+.two-column-container#five {
+    width: 50%;
+    flex-direction: column;
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+}
+
+h2.footer {
+    text-align: left;
+    margin-left: 20%;
+
+}
+
+.disclaimer-text,
+.horizontal-line {
+    position: relative;
+    align-items: center !important;;
+    justify-content: center !important;
+    text-align: justify !important;
+    margin-left: 20% !important;
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 680px) {
+/*main {
+    max-width: 100%;
+}*/
+
+/*background-image#one styling*/
+.background-image#one {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-right: -18px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2.para2 {
+    max-width: 100%;
+}
+
+.column {
+    max-width: 90%;
+}
+
+.row {
+    max-width: 90%;
+}
+
+h6.para2 {
+    max-width: 90%;
+}
+
+/*background-image#two styling*/
+.background-image#two {
+    height: 750px !important;
+    background-size: cover; 
+    background-position: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 100%;
+    margin-right: -18px;
+}
+
+
+.background-image#three {
+    margin-right: -18px;
+}
+
+.background-image#four {
+    margin-right: -18px;
+}
+
+.background-image#five {
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line,
+.disclaimer-text {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6.para3 {
+    margin-top: 150px;
+    max-width: 100%;
+}
+
+h1.para3 {
+    max-width: 90%;
+}
+
+h6.para4 {
+    max-width: 90%;
+}
+
+h5 {
+    margin-top:-20px;
+}
+
+.two-column-container {
+    height: auto;
+}
+
+.background-image#five {
+    height: auto;
+}
+
+/*Container styling*/
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 20px; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container#one {
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px !important;
+}
+
+.grid-container#two {
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container#one,
+.grid-container#two {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /
+}
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px; 
+    text-align: left;
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+}
+
+h2.footer {
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.disclaimer-text,
+.horizontal-line {
+    position: relative;
+    align-items: center !important;;
+    justify-content: center !important;
+    text-align: justify !important;
+    margin-left: 10% !important;
+    margin-right: 0 !important;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+main {
+    max-width: 100%;
+}
+
+/*background-image#one styling*/
+.background-image#one {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2.para2 {
+    max-width: 100%;
+}
+
+.column h5 {
+    max-width: 90%;
+    /*left: 25px !important;*/
+}
+
+.row {
+    max-width: 90%;
+}
+
+h6.para2 {
+    max-width: 90%;
+    margin-left: 15px !important;
+}
+
+/*background-image#two styling*/
+.background-image#two {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90% !important;
+ }
+
+h6.para3 {
+    margin-top: 150px;
+    max-width: 100%;
+}
+
+h1.para3 {
+    max-width: 90%;
+}
+
+h6.para4 {
+    max-width: 90%;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+.two-column-container {
+    height: auto;
+}
+
+.background-image#five {
+    height: auto;
+}
+
+.grid-container#two {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; 
+}
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px; 
+    text-align: left; 
+}
+}}}
